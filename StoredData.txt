@@ -1,0 +1,17 @@
+Scanner n1 = new Scanner(System.in);
+		String input;
+		int len;
+		do{
+			System.out.print("Please enter the word you wish to test (Type \"Exit\" to quit): ");
+			input = n1.nextLine();
+			if(input.equalsIgnoreCase("EXIT")){
+				break;
+			}
+			else{
+				len = input.length();
+				input.replaceAll("\\s+", "");
+				for(int x = 0; x < (len/2); x++){
+					
+				}
+			}
+		}while(!(input.equalsIgnoreCase("EXIT")));
